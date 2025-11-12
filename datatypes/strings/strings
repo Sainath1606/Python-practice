@@ -1,0 +1,45 @@
+string is a data type that sequence of charecters enclosed with single quote ('') or double quotes ("").
+example:
+   str1 = "sainath reddy"
+   str2 = 'sainath'
+
+
+Every data type has inbuilt function in python.
+
+In same way string has some in built function.
+inbuilt functions are
+
+         1. case conversion function 
+                 upper()      - that convert text to upper case (sainath - SAINATH)
+                 lower()      - convert string to lower case (SAINATH -sainath)
+                 title()      - convert first letter of every word to upper case (sainath reddy - Sainath Reddy)
+                capitalize()  - capital only first letter of the string (sainath reddy - Sainath reddy)
+                swapcase()    - make word upper and lower and wise versa. (sainath - SaInAtH)
+         2. searching and replacing
+                   find ()     - find the index of that letter ("hello".find(e)) = 1
+                  rfind ()     - find the index of last occurancy ("banana".rfind(a)) = 5
+                  index ()     - same as find but shows error if not found
+                replace ()     - used to replace the string ("sainath reddu".replace ('reddu', 'reddy')) = sainath reddy
+         3. checking content
+                startswith()   -  if strings start given text then it prints true or false
+                  endswith()   -  if string ends with given text theen it prints true or false
+                   isdigit()   -  if srting contains all charecters are numbers so prints true, if not print false
+                   isalpha()   -  checks if all are alphsbits in string then print true if not false
+                   islower()   -  checks string is lower case, if yes print true if not prints false
+                   istitle()   -  first letter of every word in string starts with capital, then prints true if not false
+         4. spliting and joining 
+                   split()     - splits strings into list
+                  rsplit()     - splits strings from right
+                    join()     - joins lists into strings
+              splitlines()     - splits by newlines
+         5. trimming
+              strip()          - removes space froom both ends
+              lstrip()         - removes space from left
+              rstrip()         - removes space from right
+         
+remembering tip : CSCSP (C FOR CASE CONVENTION)
+                        (S FOR Search and replace)
+                        (c for checking content)
+                        (s for splitting and joining)
+                        (trimming used to remove space)
+
