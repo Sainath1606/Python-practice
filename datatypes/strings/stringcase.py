@@ -16,4 +16,5 @@ print(name3.endswith('Srivastavi'))
 print(name3.split())
 print(name3.rsplit(',',1))
 print(name3.strip())
+print(name3.index('t'))
 
