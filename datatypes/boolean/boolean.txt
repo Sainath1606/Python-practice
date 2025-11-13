@@ -1,0 +1,17 @@
+In python, boolean is used to  represent two values 
+    1. true
+    2. false
+these data type is sub class of int datatype.
+inbuit fuctions are there for this type
+
+Boolean operators : 
+      and - true if both are true
+      or  - prints true if one is true
+      not - is not true prints false
+Comparison operators:
+    == ---> comparision - prints true or false
+    != ---> not euals to 
+    <=      
+    >=
+    <
+    >
