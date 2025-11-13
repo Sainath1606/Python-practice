@@ -1,0 +1,15 @@
+Variable are used to store data values.
+those variables are used in programs written in python
+
+example:
+
+     name = "sainath Reddy"
+     a  = 2
+     b = 2.4 
+
+types of varibles :
+     
+       1 . Global scope variables         - written in top of the script and used in programs and 
+       2 . block/function scope variables - written in in side a function used for that function only
+    
+
